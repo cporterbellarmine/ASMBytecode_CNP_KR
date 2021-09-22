@@ -40,7 +40,7 @@ public class ByteCode9 {
 
 
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES); //This ClassWriter will generate my class file structure.
-        cw.visit(Opcodes.V1_8, Opcodes.ACC_PUBLIC,"Accumulator", null, "java/lang/Object",null); //creating my main constructor for the file
+        cw.visit(Opcodes.V11, Opcodes.ACC_PUBLIC,"Accumulator", null, "java/lang/Object",null); //creating my main constructor for the file
 
         /**
          * This block of code is creating my constructor.
